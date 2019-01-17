@@ -1,5 +1,7 @@
 var element = document.getElementById("myLink");
 
+//GET-HAS-SET-REMOVE ATTRIBUTE
+
 
 /*True. This method returns true if the
 specified attribute exists, otherwise it returns false.*/
@@ -16,3 +18,8 @@ element.getAttribute("text")
 /*setAttribute adds an attribute to the element. In this case
 it is adding an id and its value.*/
 element.setAttribute("id", "myId")
+
+// OFFSET ATTRIBUTE
+
+element.offsetTop // Tells us what's the space from the top.
+element.offsetLeft
